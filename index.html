@@ -1,13 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    
+    <!-- Basic Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
+    <title>Bidyangdehi - Educating Young Minds of Bengal | Non-Profit Education & Relief Organization</title>
+    <meta name="description" content="Bidyangdehi is a 501(c)(3) non-profit organization dedicated to providing quality education to underprivileged children across Bengal. We offer educational support, emergency relief, and community development programs. Donate to help transform lives through education." />
+    <meta name="keywords" content="Bidyangdehi, Bengal education, non-profit, charity, children education, COVID relief, Amphan relief, West Bengal, educational support, donate, Bangladesh, India, emergency relief, community development" />
+    <meta name="author" content="Bidyangdehi Organization" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bidyangdehi.onrender.com" />
+    
+    <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+    <meta property="og:title" content="Bidyangdehi - Educating Young Minds of Bengal" />
+    <meta property="og:description" content="Join our mission to provide quality education to underprivileged children across Bengal. Your donation can transform lives through education and emergency relief programs." />
+    <meta property="og:image" content="https://bidyangdehi.onrender.com/logo.png" />
+    <meta property="og:url" content="https://bidyangdehi.onrender.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Bidyangdehi" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bidyangdehi - Educating Young Minds of Bengal" />
+    <meta name="twitter:description" content="Help us provide quality education to underprivileged children across Bengal. Donate today to transform lives through education." />
+    <meta name="twitter:image" content="https://bidyangdehi.onrender.com/logo.png" />
+    <meta name="twitter:site" content="@bidyangdehi" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#D97706" />
+    <meta name="msapplication-TileColor" content="#D97706" />
+    <meta name="application-name" content="Bidyangdehi" />
+    <meta name="msapplication-tooltip" content="Educating Young Minds of Bengal" />
+    
+    <!-- Geographic and Organization Meta Tags -->
+    <meta name="geo.region" content="IN-WB" />
+    <meta name="geo.placename" content="West Bengal, India" />
+    <meta name="geo.position" content="22.5726;88.3639" />
+    <meta name="ICBM" content="22.5726, 88.3639" />
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Bidyangdehi",
+      "alternateName": "বিদ্যাঙ্গদেহী",
+      "description": "A 501(c)(3) non-profit organization dedicated to providing quality education to underprivileged children across Bengal",
+      "url": "https://bidyangdehi.onrender.com",
+      "logo": "https://bidyangdehi.onrender.com/logo.png",
+      "taxID": "86-2974017",
+      "sameAs": [
+        "https://www.paypal.com/donate?hosted_button_id=48WGPF2XM7SNG"
+      ],
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "West Bengal, India"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Bengal"
+      },
+      "mission": "Empowering Bengal's future through quality education, community development, and humanitarian relief programs",
+      "nonprofitStatus": "501(c)(3)",
+      "seeks": {
+        "@type": "DonateAction",
+        "description": "Donations to support educational programs and emergency relief for underprivileged children"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "donations",
+        "url": "https://www.paypal.com/donate?hosted_button_id=48WGPF2XM7SNG"
+      }
+    }
+    </script>
+    
+    <!-- Google Fonts for Bengali Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/logo.png" as="image" type="image/png">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    
+    <!-- Optional: Google Analytics (replace with your tracking ID) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_TRACKING_ID');
+    </script>
+    -->
   </body>
 </html>
