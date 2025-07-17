@@ -1,0 +1,36 @@
+/* Bengali Fonts - Self-hosted to eliminate render blocking */
+
+/* Noto Sans Bengali Regular */
+@font-face {
+    font-family: 'Noto Sans Bengali';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./NotoSansBengali-Regular.woff2') format('woff2'),
+         url('./NotoSansBengali-Regular.woff') format('woff');
+  }
+  
+  /* Noto Sans Bengali SemiBold */
+  @font-face {
+    font-family: 'Noto Sans Bengali';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('./NotoSansBengali-SemiBold.woff2') format('woff2'),
+         url('./NotoSansBengali-SemiBold.woff') format('woff');
+  }
+  
+  /* Noto Sans Bengali Bold */
+  @font-face {
+    font-family: 'Noto Sans Bengali';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./NotoSansBengali-Bold.woff2') format('woff2'),
+         url('./NotoSansBengali-Bold.woff') format('woff');
+  }
+  
+  /* Fallback for Bengali text */
+  .bengali-text {
+    font-family: 'Noto Sans Bengali', 'Bangla Sangam MN', 'Kalpurush', sans-serif;
+  }
